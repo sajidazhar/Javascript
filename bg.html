@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body >
+<p>After 5 seconds color will be changed on click</p>
+<button onclick="changeBackground()">click</button>
+</body>
+<script>
+	var body = document.getElementsByTagName("body");
+ function changeBackground()
+ {
+    var interval = setTimeout(changecolor,5000);
+}
+function changecolor()
+{
+	 body[0].style.background = "blue";
+}
+</script>
+</html>
